@@ -1,0 +1,20 @@
+.secondary {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  color: black;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  font-family: inherit;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+.secondary_svg {
+  width: 1.25rem;
+}

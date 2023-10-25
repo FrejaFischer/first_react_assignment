@@ -1,0 +1,22 @@
+.primary {
+  color: white;
+  background-color: rgb(79 70 229);
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  font-family: inherit;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+button:hover .primary {
+  background-color: #6970fa;
+}
+button:focus .primary,
+button:focus-visible .primary {
+  outline: 4px auto black;
+}

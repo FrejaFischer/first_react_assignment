@@ -1,0 +1,24 @@
+form {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  width: 100%;
+  margin-top: 1.5rem;
+}
+input {
+  border: 1px solid lightgray;
+  border-radius: 0.374rem;
+  width: 100%;
+  padding: 0.3rem 0.5rem;
+}
+
+.hidden-label {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  white-space: nowrap;
+  border-width: 0;
+  margin: -1px;
+  padding: 0;
+}
