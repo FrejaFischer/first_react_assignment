@@ -1,11 +1,9 @@
-.member_container {
+/* .member_container {
   display: flex;
   place-items: center;
   justify-content: flex-start;
   padding-top: 1rem;
   padding-bottom: 1rem;
-  /* border-top: 1px solid #e5e7eb;
-  border-bottom: 1px solid #e5e7eb; */
 }
 .desc {
   display: flex;
@@ -17,7 +15,4 @@
   & p:first-child {
     font-weight: 600;
   }
-}
-/* .member_container > *:last-child {
-  margin-right: 0rem;
 } */
