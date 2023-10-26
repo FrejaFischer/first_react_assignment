@@ -2,9 +2,11 @@ import "./stylesheets/MemberList.css";
 import MemberCard from "./MemberCard";
 export default function MemberList() {
   return (
-    <section className="memberlist_container">
-      <h3>Team members previously added to projects</h3>
-      <ul>
+    <section className="memberlist_container mt-8 flex max-w-lg flex-col items-center">
+      <h3 className="m-0 self-start text-sm font-light text-gray-500">
+        Team members previously added to projects
+      </h3>
+      <ul className="mt-4 w-full border-b-2 border-t-2 border-solid border-gray-200 p-0">
         <MemberCard
           name="Lindsay Walton"
           title="Front-end Developer"

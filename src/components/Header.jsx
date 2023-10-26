@@ -3,8 +3,14 @@ import "./stylesheets/Header.css";
 
 export default function Header() {
   return (
-    <section className="header_container">
-      <svg className="header_svg" fill="none" stroke="rgb(156 163 175)" viewBox="0 0 48 48" aria-hidden="true">
+    <section className="header_container flex max-w-lg flex-col items-center">
+      <svg
+        className="header_svg h-12 w-12"
+        fill="none"
+        stroke="rgb(156 163 175)"
+        viewBox="0 0 48 48"
+        aria-hidden="true"
+      >
         <path
           strokeLinecap="round"
           strokeLinejoin="round"
@@ -12,8 +18,11 @@ export default function Header() {
           d="M34 40h10v-4a6 6 0 00-10.712-3.714M34 40H14m20 0v-4a9.971 9.971 0 00-.712-3.714M14 40H4v-4a6 6 0 0110.713-3.714M14 40v-4c0-1.313.253-2.566.713-3.714m0 0A10.003 10.003 0 0124 26c4.21 0 7.813 2.602 9.288 6.286M30 14a6 6 0 11-12 0 6 6 0 0112 0zm12 6a4 4 0 11-8 0 4 4 0 018 0zm-28 0a4 4 0 11-8 0 4 4 0 018 0z"
         ></path>
       </svg>
-      <h2>Add team members</h2>
-      <p>You haven't added any team members to your project yet. As the owner of this project, you can manage team member permissions.</p>
+      <h2 className="text-base font-semibold">Add team members</h2>
+      <p className="mt-1 text-center text-sm">
+        You haven't added any team members to your project yet. As the owner of
+        this project, you can manage team member permissions.
+      </p>
       <SignupForm />
     </section>
   );

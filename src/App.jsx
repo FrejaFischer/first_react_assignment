@@ -4,7 +4,7 @@ import MemberList from "./components/MemberList";
 
 export default function App() {
   return (
-    <main>
+    <main className="grid justify-center">
       <Header />
       <MemberList />
     </main>

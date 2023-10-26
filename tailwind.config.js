@@ -7,3 +7,5 @@ export default {
   },
   plugins: [],
 };
+
+//I extend kan man tilføje sine egne colors. Se noter i mappen react. dokumentet tailwind.
